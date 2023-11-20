@@ -1,0 +1,220 @@
+* {
+   margin: 0;
+   font-family: Arial;
+   border: border-box; 
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+}
+.nav-logo {
+    height: 60px;
+    width: 100px;
+}
+.logo {
+    background-image: url("http://wallsdesk.com/wp-content/uploads/2016/10/Amazon-Logo.jpg");
+    background-size: cover;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 100%;
+}    
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    background-color: pink;
+    width: 420px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-first{
+    font-size: 0.85;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-cart i{
+    font-size: 30px;
+    width: 100%;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 18px;
+}
+.panel-ops{
+    width: 70%;
+    font-weight: 0.85rem;
+}
+.panel-deals{
+    font-size: o.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/Jupiter_2023/Phase3/Watches/Unrec/3000_unrec._CB575261823_.jpg");
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;     
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+}
+.hero-msg a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.Box-box1{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 200px;
+    background-size: cover;
+    margin-top: 1rex;
+    margin-bottom: 1rem;
+}
+.Box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+Box-content p{
+    color: #007185;
+    margin-top: 15px;
+}
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+.foot-panel1{
+    background-color: #222f3d;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    font-size: 0.5rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("http://wallsdesk.com/wp-content/uploads/2016/10/Amazon-Logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel3{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+.pages{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.copy-write{
+    padding-top: 5px;
+    text-align: center;
+    
+}    
